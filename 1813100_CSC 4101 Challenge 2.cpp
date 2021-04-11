@@ -10,7 +10,7 @@ int main () {
 	char decision;
 	int i = 0;
 	
-	cout << "Do you want to test the proper transition or the false transition? (y/n) \n";
+	cout << "Is your input true for all states? (y/n) \n";
 	cin >> decision;
 	
 	if (decision == 'y' || decision == 'Y')
